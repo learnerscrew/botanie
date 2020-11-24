@@ -196,7 +196,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="💠 OWNER",
-                             url=f"https://t.me/anie_support"),
+                             url=f"t.me/Asur_Official"),
                        
 
 
