@@ -207,9 +207,7 @@ def start(update: Update, context: CallbackContext):
                              url="https://t.me/anie_news/5")
                      ],
                      [
-                         InlineKeyboardButton(
-                             text="➡️ HELP & COMMANDS ⬅️",
-                             url="/help")
+                         InlineKeyboardButton(text="➡️ HELP & COMMANDS ⬅️", callback_data="help_back")
                      ]]))
     else:
         update.effective_message.reply_text(
