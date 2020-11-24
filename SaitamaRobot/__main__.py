@@ -197,18 +197,15 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="💠 OWNER",
                              url=f"https://t.me/anie_support"),
-                         InlineKeyboardButton(
-                             text="🔄Updates Channel",
-                             url="https://t.me/anie_news")
-                     ],
+                       
 
 
 
 
 
-                     [
-                         InlineKeyboardButton(text="Help and Commands ❓",
-                                  callback_data="help_back")
+
+
+
                      ]]))
     else:
         update.effective_message.reply_text(
