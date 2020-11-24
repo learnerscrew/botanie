@@ -52,14 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
+I Am A Devil Group Manager Bot.
+
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with Aniebot Have a look at the following for an idea of some of \
+I'm a Hero For Fun and help admins manage their groups with A$UR Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
